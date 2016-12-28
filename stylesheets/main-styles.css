@@ -304,7 +304,7 @@ strong {
 /* line 282, ../sass/main-styles.scss */
 .left-block-content .product-catalog .product-list {
   width: 100%;
-  padding: 10px 0 75px;
+  padding: 10px 0 65px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -752,7 +752,7 @@ strong {
 /* line 680, ../sass/main-styles.scss */
 .center-block .text-block .center-text {
   display: block;
-  margin: 20px auto 40px;
+  margin: 44px auto 40px;
   text-align: center;
   color: #000000;
   font: 400 13px/16px "Arial", sans-serif;
