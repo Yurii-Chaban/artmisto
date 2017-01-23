@@ -203,76 +203,8 @@ $HelveticaNeueLTPro: 'HelveticaNeueLTPro', sans-serif;
 .left-block-content {
 	float: left;
 	width: 235px;
+	clear: left;
 
-	.search-logo-block {
-		background-image: linear-gradient(to top, #eadab6 0%, #f4efd8 100%);
-		overflow: hidden;
-		padding-bottom: 5px;
-
-		.logo-container {
-			.logo-sign {
-				margin: 0 auto 5px;
-				text-align: center;
-				color: #000000;
-				font: 400 13px / 17px $TimesNewRoman;
-			}
-
-			.logo {
-				margin: 0 auto;
-				text-align: center;
-				width: 227px;
-				height: 28px;
-				overflow: hidden;
-
-				img {
-					max-width: 100%;
-					height: auto;
-				}
-			}
-		}
-		.img-container {
-			width: 165px;
-			height: 210px;
-			margin: 0 auto 10px;
-			text-align: center;
-			overflow: hidden;
-
-			img {
-				max-width: 100%;
-				height: auto;
-			}
-		}
-
-		.search-form {
-			#search-field {
-				float: left;
-				max-width: 199px;
-				width: 100%;
-				height: 28px;
-				padding-left: 10px;
-				color: #7d7d7d;
-				font: 400 16px / 22px $Verdana;
-				border: 1px solid #772a00;
-				background-color: #ffffff;
-				@include border-box;
-			}
-			#search-button {
-				float: left;
-				display: block;
-				width: 36px;
-				height: 28px;
-				border: 1px solid #772a00;
-				border-left: 0;
-				background-color: #ffffff;
-				cursor: pointer;
-				background-image: url("../images/search-icon.png");
-				background-size: inherit;
-				background-position: center;
-				background-repeat: no-repeat;
-				@includee border-box;
-			}
-		}
-	}
 
 	.product-catalog {
 		.title {
@@ -360,9 +292,84 @@ $HelveticaNeueLTPro: 'HelveticaNeueLTPro', sans-serif;
 .main-content {
 	overflow: hidden;
 	header {
-		padding: 0 15px 0 18px;
+		padding: 0 15px 0 0;
+
+
+		.search-logo-block {
+			float: left;
+			width: 235px;
+			background-image: linear-gradient(to top, #eadab6 0%, #f4efd8 100%);
+			overflow: hidden;
+			padding-bottom: 5px;
+
+			.logo-container {
+				.logo-sign {
+					margin: 0 auto 5px;
+					text-align: center;
+					color: #000000;
+					font: 400 13px / 17px $TimesNewRoman;
+				}
+
+				.logo {
+					margin: 0 auto;
+					text-align: center;
+					width: 227px;
+					height: 28px;
+					overflow: hidden;
+
+					img {
+						max-width: 100%;
+						height: auto;
+					}
+				}
+			}
+			.img-container {
+				width: 165px;
+				height: 210px;
+				margin: 0 auto 10px;
+				text-align: center;
+				overflow: hidden;
+
+				img {
+					max-width: 100%;
+					height: auto;
+				}
+			}
+
+			.search-form {
+				#search-field {
+					float: left;
+					max-width: 199px;
+					width: 100%;
+					height: 28px;
+					padding-left: 10px;
+					color: #7d7d7d;
+					font: 400 16px / 22px $Verdana;
+					border: 1px solid #772a00;
+					background-color: #ffffff;
+					@include border-box;
+				}
+				#search-button {
+					float: left;
+					display: block;
+					width: 36px;
+					height: 28px;
+					border: 1px solid #772a00;
+					border-left: 0;
+					background-color: #ffffff;
+					cursor: pointer;
+					background-image: url("../images/search-icon.png");
+					background-size: inherit;
+					background-position: center;
+					background-repeat: no-repeat;
+					@includee border-box;
+				}
+			}
+		}
+
 	}
 	.nav-content {
+		padding-left: 18px;
 		overflow: hidden;
 
 		.basket-content {
@@ -468,9 +475,9 @@ $HelveticaNeueLTPro: 'HelveticaNeueLTPro', sans-serif;
 	}
 
 	.fade {
+		float: right;
 		width: 732px;
 		height: 277px;
-		margin-left: 18px;
 		margin-bottom: 0;
 		box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.64);
 		background-color: #ffffff;
@@ -663,6 +670,7 @@ $HelveticaNeueLTPro: 'HelveticaNeueLTPro', sans-serif;
 }
 
 .center-block {
+	width: 54%;
 	overflow: hidden;
 
 	.text-block {
