@@ -570,25 +570,26 @@ strong {
 /* line 519, ../sass/main-styles.scss */
 .right-sidebar {
   float: right;
+  clear: right;
   width: 225px;
   background-color: #f0dbb5;
 }
-/* line 524, ../sass/main-styles.scss */
+/* line 525, ../sass/main-styles.scss */
 .right-sidebar .posts-list {
   padding: 20px 15px 0;
 }
-/* line 527, ../sass/main-styles.scss */
+/* line 528, ../sass/main-styles.scss */
 .right-sidebar .posts-list li {
   display: block;
   margin: 0 0 20px 0;
 }
-/* line 531, ../sass/main-styles.scss */
+/* line 532, ../sass/main-styles.scss */
 .right-sidebar .posts-list li .post-title {
   color: #ab0e0d;
   font: 700 12px/17px "Arial", sans-serif;
   text-transform: uppercase;
 }
-/* line 536, ../sass/main-styles.scss */
+/* line 537, ../sass/main-styles.scss */
 .right-sidebar .posts-list li .date {
   display: block;
   margin: 5px 0;
@@ -596,16 +597,16 @@ strong {
   font: 400 12px/15px "Arial", sans-serif;
   font-style: italic;
 }
-/* line 544, ../sass/main-styles.scss */
+/* line 545, ../sass/main-styles.scss */
 .right-sidebar .posts-list li p {
   color: #000000;
   font: 400 12px/15px "Arial", sans-serif;
 }
-/* line 548, ../sass/main-styles.scss */
+/* line 549, ../sass/main-styles.scss */
 .right-sidebar .posts-list li p span {
   text-transform: uppercase;
 }
-/* line 555, ../sass/main-styles.scss */
+/* line 556, ../sass/main-styles.scss */
 .right-sidebar .stocks-block > .title {
   width: 100%;
   padding-left: 10px;
@@ -619,14 +620,14 @@ strong {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 559, ../sass/main-styles.scss */
+/* line 560, ../sass/main-styles.scss */
 .right-sidebar .stocks-block .stocks-list {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 562, ../sass/main-styles.scss */
+/* line 563, ../sass/main-styles.scss */
 .right-sidebar .stocks-block .stocks-list li {
   position: relative;
   margin: 5px 0;
@@ -637,7 +638,7 @@ strong {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 570, ../sass/main-styles.scss */
+/* line 571, ../sass/main-styles.scss */
 .right-sidebar .stocks-block .stocks-list li:first-child:after {
   position: absolute;
   bottom: 0;
@@ -647,12 +648,12 @@ strong {
   height: 1px;
   background-color: #d6ad7a;
 }
-/* line 581, ../sass/main-styles.scss */
+/* line 582, ../sass/main-styles.scss */
 .right-sidebar .stocks-block .stocks-list li p {
   color: #ab0e0d;
   font: 700 12px/16px "Arial", sans-serif;
 }
-/* line 586, ../sass/main-styles.scss */
+/* line 587, ../sass/main-styles.scss */
 .right-sidebar .stocks-block .stocks-list li .img-wrapper {
   width: 197px;
   height: 148px;
@@ -660,37 +661,37 @@ strong {
   overflow: hidden;
   border-radius: 10px;
 }
-/* line 593, ../sass/main-styles.scss */
+/* line 594, ../sass/main-styles.scss */
 .right-sidebar .stocks-block .stocks-list li .img-wrapper img {
   max-width: 100%;
   height: auto;
 }
-/* line 600, ../sass/main-styles.scss */
+/* line 601, ../sass/main-styles.scss */
 .right-sidebar .stocks-block .stocks-list li .mark-and-code p {
   color: #000000;
   font: 400 12px/16px "Arial", sans-serif;
 }
-/* line 604, ../sass/main-styles.scss */
+/* line 605, ../sass/main-styles.scss */
 .right-sidebar .stocks-block .stocks-list li .mark-and-code p .title {
   float: left;
   min-width: 100px;
 }
-/* line 609, ../sass/main-styles.scss */
+/* line 610, ../sass/main-styles.scss */
 .right-sidebar .stocks-block .stocks-list li .mark-and-code p .description {
   display: block;
   width: 75px;
   overflow: hidden;
   font-weight: bold;
 }
-/* line 615, ../sass/main-styles.scss */
+/* line 616, ../sass/main-styles.scss */
 .right-sidebar .stocks-block .stocks-list li .mark-and-code p .description span {
   text-transform: uppercase;
 }
-/* line 622, ../sass/main-styles.scss */
+/* line 623, ../sass/main-styles.scss */
 .right-sidebar .stocks-block .stocks-list li .price-adn-buy {
   overflow: hidden;
 }
-/* line 625, ../sass/main-styles.scss */
+/* line 626, ../sass/main-styles.scss */
 .right-sidebar .stocks-block .stocks-list li .price-adn-buy p {
   float: left;
   overflow: hidden;
@@ -698,29 +699,29 @@ strong {
   color: #000000;
   font: 400 12px/16px "Arial", sans-serif;
 }
-/* line 632, ../sass/main-styles.scss */
+/* line 633, ../sass/main-styles.scss */
 .right-sidebar .stocks-block .stocks-list li .price-adn-buy p .title {
   float: left;
   margin: 16px 5px 0 0;
 }
-/* line 637, ../sass/main-styles.scss */
+/* line 638, ../sass/main-styles.scss */
 .right-sidebar .stocks-block .stocks-list li .price-adn-buy p .description {
   float: left;
 }
-/* line 639, ../sass/main-styles.scss */
+/* line 640, ../sass/main-styles.scss */
 .right-sidebar .stocks-block .stocks-list li .price-adn-buy p .description * {
   display: block;
 }
-/* line 643, ../sass/main-styles.scss */
+/* line 644, ../sass/main-styles.scss */
 .right-sidebar .stocks-block .stocks-list li .price-adn-buy p .description strong {
   text-decoration: line-through;
 }
-/* line 647, ../sass/main-styles.scss */
+/* line 648, ../sass/main-styles.scss */
 .right-sidebar .stocks-block .stocks-list li .price-adn-buy p .description .stocks-price {
   color: #cd0e0d;
   font-weight: 700;
 }
-/* line 654, ../sass/main-styles.scss */
+/* line 655, ../sass/main-styles.scss */
 .right-sidebar .stocks-block .stocks-list li .price-adn-buy .buy-btn {
   float: right;
   display: block;
@@ -734,27 +735,27 @@ strong {
   background-image: linear-gradient(to top, #d1a36f 0%, #e8d19d 45%, #f8f1bd 100%);
 }
 
-/* line 672, ../sass/main-styles.scss */
+/* line 673, ../sass/main-styles.scss */
 .center-block {
   width: 54%;
   overflow: hidden;
 }
-/* line 676, ../sass/main-styles.scss */
+/* line 677, ../sass/main-styles.scss */
 .center-block .text-block {
   margin-top: 20px;
   padding: 0 15px 0 20px;
 }
-/* line 679, ../sass/main-styles.scss */
+/* line 680, ../sass/main-styles.scss */
 .center-block .text-block p {
   color: #000000;
   text-indent: 1.5em;
   font: 400 13px/16px "Arial", sans-serif;
 }
-/* line 684, ../sass/main-styles.scss */
+/* line 685, ../sass/main-styles.scss */
 .center-block .text-block p strong {
   font-weight: bold;
 }
-/* line 688, ../sass/main-styles.scss */
+/* line 689, ../sass/main-styles.scss */
 .center-block .text-block .center-text {
   display: block;
   margin: 44px auto 40px;
@@ -762,7 +763,7 @@ strong {
   color: #000000;
   font: 400 13px/16px "Arial", sans-serif;
 }
-/* line 696, ../sass/main-styles.scss */
+/* line 697, ../sass/main-styles.scss */
 .center-block .text-block .wishes {
   margin: 0 auto 50px;
   text-align: center;
@@ -771,18 +772,18 @@ strong {
   font-style: italic;
 }
 
-/* line 706, ../sass/main-styles.scss */
+/* line 707, ../sass/main-styles.scss */
 .new-arrivals-block {
   width: 99%;
   background-color: #ffffff;
 }
-/* line 710, ../sass/main-styles.scss */
+/* line 711, ../sass/main-styles.scss */
 .new-arrivals-block .arrivals-title {
   margin: 6px 0 0 15px;
   color: #000000;
   font: 700 15px/20px "Arial", sans-serif;
 }
-/* line 716, ../sass/main-styles.scss */
+/* line 717, ../sass/main-styles.scss */
 .new-arrivals-block .arrivals-list {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -799,7 +800,7 @@ strong {
   justify-content: space-between;
   padding-bottom: 10px;
 }
-/* line 728, ../sass/main-styles.scss */
+/* line 729, ../sass/main-styles.scss */
 .new-arrivals-block .arrivals-list li {
   max-width: 247px;
   max-height: 310px;
@@ -811,12 +812,12 @@ strong {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 736, ../sass/main-styles.scss */
+/* line 737, ../sass/main-styles.scss */
 .new-arrivals-block .arrivals-list li p {
   color: #ab0e0d;
   font: 700 12px/16px "Arial", sans-serif;
 }
-/* line 741, ../sass/main-styles.scss */
+/* line 742, ../sass/main-styles.scss */
 .new-arrivals-block .arrivals-list li .img-wrapper {
   width: 197px;
   height: 148px;
@@ -824,45 +825,45 @@ strong {
   overflow: hidden;
   border-radius: 10px;
 }
-/* line 748, ../sass/main-styles.scss */
+/* line 749, ../sass/main-styles.scss */
 .new-arrivals-block .arrivals-list li .img-wrapper img {
   max-width: 100%;
   height: auto;
 }
-/* line 755, ../sass/main-styles.scss */
+/* line 756, ../sass/main-styles.scss */
 .new-arrivals-block .arrivals-list li .mark-and-code p {
   color: #000000;
   font: 400 12px/16px "Arial", sans-serif;
 }
-/* line 759, ../sass/main-styles.scss */
+/* line 760, ../sass/main-styles.scss */
 .new-arrivals-block .arrivals-list li .mark-and-code p .title {
   float: left;
   min-width: 100px;
 }
-/* line 764, ../sass/main-styles.scss */
+/* line 765, ../sass/main-styles.scss */
 .new-arrivals-block .arrivals-list li .mark-and-code p .description {
   display: block;
   width: 75px;
   overflow: hidden;
   font-weight: bold;
 }
-/* line 770, ../sass/main-styles.scss */
+/* line 771, ../sass/main-styles.scss */
 .new-arrivals-block .arrivals-list li .mark-and-code p .description span {
   text-transform: uppercase;
 }
-/* line 777, ../sass/main-styles.scss */
+/* line 778, ../sass/main-styles.scss */
 .new-arrivals-block .arrivals-list li .price-adn-buy {
   overflow: hidden;
   margin-top: 10px;
 }
-/* line 781, ../sass/main-styles.scss */
+/* line 782, ../sass/main-styles.scss */
 .new-arrivals-block .arrivals-list li .price-adn-buy p {
   float: left;
   margin: 5px 0 0;
   color: #000000;
   font: 400 12px/16px "Arial", sans-serif;
 }
-/* line 788, ../sass/main-styles.scss */
+/* line 789, ../sass/main-styles.scss */
 .new-arrivals-block .arrivals-list li .price-adn-buy .buy-btn {
   float: right;
   display: block;
@@ -875,48 +876,48 @@ strong {
   background-image: linear-gradient(to top, #d1a36f 0%, #e8d19d 45%, #f8f1bd 100%);
 }
 
-/* line 804, ../sass/main-styles.scss */
+/* line 805, ../sass/main-styles.scss */
 .animate-wrapper {
   position: relative;
   width: 534px;
   height: 142px;
   overflow: hidden;
 }
-/* line 810, ../sass/main-styles.scss */
+/* line 811, ../sass/main-styles.scss */
 .animate-wrapper .animate-img {
   width: 100%;
   height: 142px;
   display: none;
 }
 
-/* line 817, ../sass/main-styles.scss */
+/* line 818, ../sass/main-styles.scss */
 .preffoter {
   margin: 10px auto 0;
   padding-top: 20px;
   overflow: hidden;
   background-color: #f0dbb5;
 }
-/* line 824, ../sass/main-styles.scss */
+/* line 825, ../sass/main-styles.scss */
 .preffoter .footer-navigation .site-link {
   float: left;
   margin-left: 60px;
   color: #690000;
   font: 400 14px/19px "Arial", sans-serif;
 }
-/* line 830, ../sass/main-styles.scss */
+/* line 831, ../sass/main-styles.scss */
 .preffoter .footer-navigation .site-link:hover {
   text-decoration: underline;
 }
-/* line 835, ../sass/main-styles.scss */
+/* line 836, ../sass/main-styles.scss */
 .preffoter .footer-navigation .footer-menu {
   float: right;
   margin-right: 15px;
 }
-/* line 839, ../sass/main-styles.scss */
+/* line 840, ../sass/main-styles.scss */
 .preffoter .footer-navigation .footer-menu li {
   display: inline-block;
 }
-/* line 842, ../sass/main-styles.scss */
+/* line 843, ../sass/main-styles.scss */
 .preffoter .footer-navigation .footer-menu li a {
   position: relative;
   display: block;
@@ -924,15 +925,15 @@ strong {
   color: #690000;
   font: 400 12px/16px "Arial", sans-serif;
 }
-/* line 849, ../sass/main-styles.scss */
+/* line 850, ../sass/main-styles.scss */
 .preffoter .footer-navigation .footer-menu li a span {
   text-transform: uppercase;
 }
-/* line 853, ../sass/main-styles.scss */
+/* line 854, ../sass/main-styles.scss */
 .preffoter .footer-navigation .footer-menu li a:hover {
   text-decoration: underline;
 }
-/* line 857, ../sass/main-styles.scss */
+/* line 858, ../sass/main-styles.scss */
 .preffoter .footer-navigation .footer-menu li a:after {
   position: absolute;
   top: 0;
@@ -942,30 +943,30 @@ strong {
   height: 100%;
   background-color: #690000;
 }
-/* line 869, ../sass/main-styles.scss */
+/* line 870, ../sass/main-styles.scss */
 .preffoter .footer-navigation .footer-menu li:last-child a {
   padding-right: 0;
 }
-/* line 871, ../sass/main-styles.scss */
+/* line 872, ../sass/main-styles.scss */
 .preffoter .footer-navigation .footer-menu li:last-child a:after {
   content: none;
 }
-/* line 880, ../sass/main-styles.scss */
+/* line 881, ../sass/main-styles.scss */
 .preffoter .social-icons {
   float: left;
   clear: both;
   margin: 20px 0 10px 60px;
 }
-/* line 885, ../sass/main-styles.scss */
+/* line 886, ../sass/main-styles.scss */
 .preffoter .social-icons li {
   display: inline-block;
   margin: 0 3px;
 }
-/* line 889, ../sass/main-styles.scss */
+/* line 890, ../sass/main-styles.scss */
 .preffoter .social-icons li:first-child {
   margin-left: 0;
 }
-/* line 893, ../sass/main-styles.scss */
+/* line 894, ../sass/main-styles.scss */
 .preffoter .social-icons li a {
   display: block;
   width: 28px;
@@ -977,17 +978,17 @@ strong {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 901, ../sass/main-styles.scss */
+/* line 902, ../sass/main-styles.scss */
 .preffoter .social-icons li a:hover {
   box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.42);
 }
-/* line 905, ../sass/main-styles.scss */
+/* line 906, ../sass/main-styles.scss */
 .preffoter .social-icons li a img {
   max-width: 100%;
   height: auto;
 }
 
-/* line 914, ../sass/main-styles.scss */
+/* line 915, ../sass/main-styles.scss */
 footer .copyright {
   clear: both;
   margin: 0 auto;
@@ -999,25 +1000,25 @@ footer .copyright {
   box-sizing: border-box;
   background-color: #690000;
 }
-/* line 921, ../sass/main-styles.scss */
+/* line 922, ../sass/main-styles.scss */
 footer .copyright .copyright-sign {
   margin: 0 auto;
   color: #e4cda4;
   font: 400 11px/22px "Arial", sans-serif;
 }
-/* line 926, ../sass/main-styles.scss */
+/* line 927, ../sass/main-styles.scss */
 footer .copyright .copyright-sign a {
   color: #e4cda4;
 }
-/* line 929, ../sass/main-styles.scss */
+/* line 930, ../sass/main-styles.scss */
 footer .copyright .copyright-sign a:hover {
   text-decoration: underline;
 }
-/* line 933, ../sass/main-styles.scss */
+/* line 934, ../sass/main-styles.scss */
 footer .copyright .copyright-sign a.global-vision {
   font: 400 11px/22px "HelveticaNeueLTPro", sans-serif;
 }
-/* line 937, ../sass/main-styles.scss */
+/* line 938, ../sass/main-styles.scss */
 footer .copyright .copyright-sign a.artmisto {
   text-transform: uppercase;
 }
